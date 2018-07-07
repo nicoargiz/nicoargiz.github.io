@@ -1,0 +1,75 @@
+/* Your custom styles */
+
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.centro {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.top-nav-collapse {
+  background-color: #37393a !important;
+  opacity: 0.8;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #37393a !important;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #37393a !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+.letra {
+  font-family: 'Nunito Sans', sans-serif;
+}
+.titulo {
+  font-size: calc(30px + 1.8vw)
+}
+.bajotitulo {
+  font-size: calc(14px + 0.7vw)
+}
+.subtitulo {
+  font-size: 20px;
+}
+.texto {
+  font-size: 17px;
+  }
+
+
