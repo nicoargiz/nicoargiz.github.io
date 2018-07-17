@@ -108,7 +108,7 @@
 
   <!-- Section: Contact v.3 -->
   <section id="contactSection" class="container contact-section my-5">
-
+    <form id="formContacto" method="post" action="proceso.php">
     <!-- Form with header -->
     <div class="card">
 
@@ -129,16 +129,16 @@
               <!-- Grid column -->
               <div class="col-md-6">
                 <div class="md-form mb-0">
-                  <input type="text" id="form-contact-name" class="form-control">
-                  <label for="form-contact-name" class="">Nombre</label>
+                  <input type="text" name="nombre" id="nombre" class="form-control">
+                  <label for="nombre" class="">Nombre</label>
                 </div>
               </div>
               <!-- Grid column -->
               <!-- Grid column -->
               <div class="col-md-6">
                 <div class="md-form mb-0">
-                  <input type="text" id="form-contact-email" class="form-control">
-                  <label for="form-contact-email" class="">Email</label>
+                  <input type="text" id="email" class="form-control">
+                  <label for="email" class="">Email</label>
                 </div>
               </div>
               <!-- Grid column -->
@@ -150,8 +150,8 @@
               <!-- Grid column -->
               <div class="col-md-6">
                 <div class="md-form mb-0">
-                  <input type="text" id="form-contact-phone" class="form-control">
-                  <label for="form-contact-phone" class="">Teléfono</label>
+                  <input type="text" id="telefono" class="form-control">
+                  <label for="telefono" class="">Teléfono</label>
                 </div>
               </div>
               <!-- Grid column -->
@@ -168,9 +168,9 @@
             <div class="container">
               <!-- Default checkbox -->
               <div class="form-check">
-                <label class="checkstyle " for="defaultCheckbox1">
+                <label class="checkstyle " for="checkbox1">
                   <h5>Bandejeo</h5>
-                  <input type="checkbox" value="" id="defaultCheckbox1">
+                  <input type="checkbox" value="" id="checkbox1">
                   <span class="checkmark"></span>
                 </label>
               </div>
@@ -179,9 +179,9 @@
             <div class="container">
               <!-- Default checkbox -->
               <div class="form-check">
-                <label class="checkstyle " for="defaultCheckbox2">
+                <label class="checkstyle " for="checkbox2">
                   <h5>Al Plato</h5>
-                  <input type="checkbox" value="" id="defaultCheckbox2">
+                  <input type="checkbox" value="" id="checkbox2">
                   <span class="checkmark"></span>
                 </label>
               </div>
@@ -230,8 +230,8 @@
               <!-- Grid column -->
               <div class="col-md-12">
                 <div class="md-form mb-0">
-                  <textarea type="text" id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
-                  <label for="form-contact-message">Mensaje</label>
+                  <textarea type="text" id="mensaje" class="form-control md-textarea" rows="3"></textarea>
+                  <label for="mensaje">Mensaje</label>
                   <button type="button" class="btn btn-elegant">ENVIAR</button>
                 </div>
               </div>
@@ -243,6 +243,7 @@
         </div>
       </div>
       <!-- Grid column -->
+    </form>  
   </section>
   <!-- Section: Contact v.3 -->
 
