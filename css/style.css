@@ -43,6 +43,14 @@ header,
   }
 }
 
+.imgShadowStrong {
+  box-shadow: -10px 10px 30px rgb(0, 0, 0);
+}
+
+.imgShadow {
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.397);
+}
+
 h1 {
   letter-spacing: 8px;
 }

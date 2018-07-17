@@ -8,7 +8,7 @@ servicesButtonNode.click(scrolling);
 function scrolling(event) {
 	$('html, body').animate(
 		{
-			scrollTop: $('#sectionMenu').offset().top
+			scrollTop: $('#sectionMenu').offset().top -80
 		},
 		1000
 	);
@@ -22,7 +22,7 @@ nosotrosButtonNode.click(scrolling3)
 function scrolling3(event) {
 	$('html, body').animate(
 		{
-			scrollTop: $('#nosotrosSection').offset().top
+			scrollTop: $('#nosotrosSection').offset().top -100
 		},
 		1000
 	);
@@ -36,7 +36,7 @@ contactoButtonNode.click(scrolling4)
 function scrolling4(event) {
 	$('html, body').animate(
 		{
-			scrollTop: $('#contactSection').offset().top
+			scrollTop: $('#contactSection').offset().top -100
 		},
 		1000
 	);
