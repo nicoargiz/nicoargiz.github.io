@@ -1,43 +1,45 @@
-// Sroll function Servicios
-var mainServicesButtonNode = $('#mainServicesButton')
-var servicesButtonNode = $('#servicesButton');
+$(document).ready(function () {
+	new WOW().init();
 
-mainServicesButtonNode.click(scrolling)
-servicesButtonNode.click(scrolling);
+	// Sroll function Servicios
+	var mainServicesButtonNode = $('#mainServicesButton')
+	var servicesButtonNode = $('#servicesButton');
 
-function scrolling(event) {
-	$('html, body').animate(
-		{
-			scrollTop: $('#sectionMenu').offset().top -80
-		},
-		1000
-	);
-}
+	mainServicesButtonNode.click(scrolling)
+	servicesButtonNode.click(scrolling);
 
-//Scroll function Nosotros
-var nosotrosButtonNode = $('#nosotrosButton')
+	function scrolling(event) {
+		$('html, body').animate({
+				scrollTop: $('#sectionMenu').offset().top - 80
+			},
+			1000
+		);
+	}
 
-nosotrosButtonNode.click(scrolling3)
+	//Scroll function Nosotros
+	var nosotrosButtonNode = $('#nosotrosButton')
 
-function scrolling3(event) {
-	$('html, body').animate(
-		{
-			scrollTop: $('#nosotrosSection').offset().top -100
-		},
-		1000
-	);
-}
+	nosotrosButtonNode.click(scrolling3)
 
-//Scroll function Contacto
-var contactoButtonNode = $('#contactoButton')
+	function scrolling3(event) {
+		$('html, body').animate({
+				scrollTop: $('#nosotrosSection').offset().top - 100
+			},
+			1000
+		);
+	}
 
-contactoButtonNode.click(scrolling4)
+	//Scroll function Contacto
+	var contactoButtonNode = $('#contactoButton')
 
-function scrolling4(event) {
-	$('html, body').animate(
-		{
-			scrollTop: $('#contactSection').offset().top -100
-		},
-		1000
-	);
-}
+	contactoButtonNode.click(scrolling4)
+
+	function scrolling4(event) {
+		$('html, body').animate({
+				scrollTop: $('#contactSection').offset().top - 100
+			},
+			1000
+		);
+	}
+
+});
