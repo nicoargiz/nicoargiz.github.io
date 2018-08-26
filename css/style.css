@@ -75,10 +75,10 @@ h5 {
 
 /* VARIOS */
 .imgShadowStrong {
-  box-shadow: -10px 10px 30px rgb(0, 0, 0);
+  box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.87);
 }
 .imgShadow {
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.397);
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.295);
 }
 .hr-light {
   border-top: 3px solid #fff;

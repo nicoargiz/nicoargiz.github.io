@@ -1,6 +1,7 @@
 $(document).ready(function () {
 	new WOW().init();
 
+  // PARALAX EFFECTS
 	$(".intro-parallax, [data-paroller-factor]").paroller({
 		factor: 0.4,
 		type: 'background',
@@ -14,8 +15,8 @@ $(document).ready(function () {
 		factorMd: 0.2,
 		type: 'background',
 		direction: 'vertical'
-	});
-
+  });
+  
 	// Sroll function Servicios
 	var mainServicesButtonNode = $('#mainServicesButton')
 	var servicesButtonNode = $('#servicesButton');
