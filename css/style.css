@@ -1,12 +1,12 @@
-/* Your custom styles */
-
 /* Required for full background image */
-
 html,
 body,
 header,
 .view {
   height: 100%;
+}
+body{
+  overflow-x: auto;
 }
 
 @media (max-width: 740px) {
@@ -18,17 +18,19 @@ header,
   }
 }
 
+/* NAVBAR */
 .centro {
   padding-left: 5vw;
   padding-right: 5vw;
 }
-
+.adela-style{
+  font-family: 'Nunito', sans-serif; 
+  font-size:calc(30px + 1.3vw);
+}
 .top-nav-collapse {
   background-color: #37393a !important;
   opacity: 0.9;
-  height: 70px;
 }
-
 .navbar:not(.top-nav-collapse) {
   background: transparent !important;
 }
@@ -44,27 +46,44 @@ header,
   }
 }
 
-.imgShadowStrong {
-  box-shadow: -10px 10px 30px rgb(0, 0, 0);
+/* INTRO */
+.intro-parallax {
+  background-image: url("../img/fuego-fondo.jpg");
+  background-size: cover;
 }
 
-.imgShadow {
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.397);
-}
-
+/* TITULOS */
 h1 {
   letter-spacing: 8px;
 }
-
 h5 {
   letter-spacing: 3px;
 }
 
+/* SERVICIOS SECTION */
+.bandejeo-bgn{
+  background-image: url(../img/menu-bandejeo-min.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+.alplato-bgn{
+  background-image: url(../img/menu-al-plato.jpg);
+  background-size: 120%; 
+  background-position: center;
+}
+ 
+
+/* VARIOS */
+.imgShadowStrong {
+  box-shadow: -10px 10px 30px rgb(0, 0, 0);
+}
+.imgShadow {
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.397);
+}
 .hr-light {
   border-top: 3px solid #fff;
   width: 80px;
 }
-
 .letra {
   font-family: 'Nunito Sans', sans-serif;
 }
@@ -81,8 +100,18 @@ h5 {
   font-size: 17px;
   }
 
-/* CHECKBOXES */
+/*FOOTER */
+.footer-title{
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+}
+.footer-text{
+  font-family: 'Nunito', sans-serif;
+}
 
+
+/* PRESUPUESTO */
+/* CHECKBOXES */
   .checkstyle {
     display: block;
     position: relative;
@@ -148,13 +177,5 @@ h5 {
     transform: rotate(45deg);
 }
 
-/*FOOTER */
-.footer-title{
-  font-family: 'Nunito', sans-serif;
-  font-size: 2rem;
-}
-.footer-text{
-  font-family: 'Nunito', sans-serif;
 
-}
 

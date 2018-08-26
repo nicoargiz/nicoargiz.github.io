@@ -1,6 +1,18 @@
 $(document).ready(function () {
 	new WOW().init();
 
+	$(".intro-parallax, [data-paroller-factor]").paroller({
+		factor: 0.4,            
+		type: 'background',     
+		direction: 'vertical' 
+	});
+
+	$(".bandejeo-bgn, .alplato-bgn, [data-paroller-factor]").paroller({
+		factor: 0.5,            
+		type: 'background',     
+		direction: 'vertical' 
+	});
+
 	// Sroll function Servicios
 	var mainServicesButtonNode = $('#mainServicesButton')
 	var servicesButtonNode = $('#servicesButton');
