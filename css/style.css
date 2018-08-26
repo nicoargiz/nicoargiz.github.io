@@ -6,7 +6,7 @@ header,
   height: 100%;
 }
 body{
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 @media (max-width: 740px) {
@@ -26,6 +26,11 @@ body{
 .adela-style{
   font-family: 'Nunito', sans-serif; 
   font-size:calc(30px + 1.3vw);
+}
+.nav-font{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  
 }
 .top-nav-collapse {
   background-color: #37393a !important;
@@ -49,6 +54,10 @@ body{
 /* INTRO */
 .intro-parallax {
   background-image: url("../img/fuego-fondo.jpg");
+  background-size: cover;
+}
+.intro-presupuesto{
+  background-image: url(../img/fuego-rs.jpg);
   background-size: cover;
 }
 
