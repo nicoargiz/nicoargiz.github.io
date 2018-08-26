@@ -2,15 +2,18 @@ $(document).ready(function () {
 	new WOW().init();
 
 	$(".intro-parallax, [data-paroller-factor]").paroller({
-		factor: 0.4,            
-		type: 'background',     
-		direction: 'vertical' 
+		factor: 0.4,
+		type: 'background',
+		direction: 'vertical'
 	});
 
 	$(".bandejeo-bgn, .alplato-bgn, [data-paroller-factor]").paroller({
-		factor: 0.5,            
-		type: 'background',     
-		direction: 'vertical' 
+		factor: 0.5,
+		factorXs: 0.1,
+		factorSm: 0.2,
+		factorMd: 0.2,
+		type: 'background',
+		direction: 'vertical'
 	});
 
 	// Sroll function Servicios
@@ -22,8 +25,8 @@ $(document).ready(function () {
 
 	function scrolling(event) {
 		$('html, body').animate({
-				scrollTop: $('#sectionMenu').offset().top - 80
-			},
+			scrollTop: $('#sectionMenu').offset().top - 80
+		},
 			1000
 		);
 	}
@@ -35,8 +38,8 @@ $(document).ready(function () {
 
 	function scrolling3(event) {
 		$('html, body').animate({
-				scrollTop: $('#nosotrosSection').offset().top - 100
-			},
+			scrollTop: $('#nosotrosSection').offset().top - 100
+		},
 			1000
 		);
 	}
@@ -48,8 +51,8 @@ $(document).ready(function () {
 
 	function scrolling4(event) {
 		$('html, body').animate({
-				scrollTop: $('#contactSection').offset().top - 100
-			},
+			scrollTop: $('#contactSection').offset().top - 100
+		},
 			1000
 		);
 	}
